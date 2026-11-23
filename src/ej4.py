@@ -9,4 +9,4 @@ for divisor in range(2,identificarNumero):
 if esPrimo:
     print(identificarNumero,"es primo")
 else:
-    print(identificarNumero,"no es primo")
+    print(identificarNumero,"no es primo se puede dividir por", divisor)
