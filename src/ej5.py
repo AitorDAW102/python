@@ -20,3 +20,5 @@ while(option!=0):
     elif option==2:
         for i in range(len(nombres)):
             print("nombre:",nombres[i],", telefono",telefonos[i])
+    elif option !=0:
+        print("Opcion Incorrecta")
