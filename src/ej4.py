@@ -4,6 +4,7 @@ esPrimo = True
 for divisor in range(2,identificarNumero):
     if (identificarNumero%divisor)==0:
         esPrimo=False
+        break
 
 if esPrimo:
     print(identificarNumero,"es primo")
