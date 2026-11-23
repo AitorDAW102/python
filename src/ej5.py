@@ -1,6 +1,5 @@
 nombres=[]
 telefonos=[]
-contador=0
 option=-1
 
 while(option!=0):
@@ -16,12 +15,8 @@ while(option!=0):
         print("Opcion Incorrecta")
         continue
     if option==1:
-        nombre=str(input("Introduce el nombre: "))
-        telefono=int(input("Introduce el telefono: "))
-
-        nombres.append(nombre)
-        telefonos.append(telefono)
-        contador+=1
+        nombres.append(str(input("Introduce el nombre: ")))
+        telefonos.append(int(input("Introduce el telefono: ")))
     elif option==2:
-        for i in range(contador):
+        for i in range(len(nombres)):
             print("nombre:",nombres[i],", telefono",telefonos[i])
